@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    border: solid;
+}
+
+.header {
+    height: 100px;
+    background-color: darkslategray;
+}
+
+.banner {
+    height: 400px;
+    background-color: lightgray;
+}
+
+.circle_contener {
+    /* border: cornflowerblue solid; */
+    width: 88%;
+    margin: 70px auto;
+}
+
+.gird_contenear::after,
+.circle_contener::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+    border-radius: 100%;
+    float: left;
+    margin-left: 250px;
+}
+
+.gird_contenear {
+    /* border: purple solid; */
+    width: 88%;
+    margin: 0px auto;
+}
+
+.boxs {
+    width: 450px;
+    height: 250px;
+    background-color: forestgreen;
+    float: left;
+    margin:  20px 50px;
+}
+
+.footer {
+    height: 250px;
+    background-color: darkolivegreen;
+    margin-top: 30px;
+}
